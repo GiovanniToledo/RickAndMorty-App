@@ -1,8 +1,10 @@
-package com.gysstudio.basecleanarchexample.presentation
+package com.gysstudio.rickandmortyapp
 
 import android.app.Application
 import android.util.Log
+import dagger.hilt.android.HiltAndroidApp
 
+@HiltAndroidApp
 class BaseApp : Application() {
 
     val TAG: String = BaseApp::class.java.simpleName

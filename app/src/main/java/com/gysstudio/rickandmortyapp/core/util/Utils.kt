@@ -1,4 +1,6 @@
-package com.gysstudio.basecleanarchexample.core.util
+package com.gysstudio.rickandmortyapp.core.util
 
-class Utils {
+import com.gysstudio.rickandmortyapp.domain.GetCharacterRequest
+
+class Utils<T> {
 }
